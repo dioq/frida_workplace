@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8764f578-31bb-47af-9fc3-824a19d6df19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PlayBaby/OkHttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat_live/Conversation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat_live/Conversation2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat_live/Msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat_live/RoomInfoView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat_live/TIMConversation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat_live/follow_native.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/OkHttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/OkHttp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/ApiClient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/ApiLive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/CommonRequestResult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/JavaHook2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/anchorId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/chatRoomId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/circleAd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/roomNo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/send2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/send_msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiezi/send_msg_active.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vmos/RomDetailsActivity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vmos/VMOS3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vmos/VMOS_AllFunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vmos/VMOS_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vmos/VM_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vmos/VmListFragment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/JavaHook.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/String2byteArr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/doFinal_crypto_java.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/doFinal_crypto_java.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/md5_java.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/md5_java.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eM2ZCUhYac6TPb76MJWJMlV6NP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PlayBaby" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\frida\frida_workplace\PlayBaby" />
+      <recent name="F:\frida\frida_workplace\qiezi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\frida\frida_workplace\qiezi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="OkHttp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="frida_workplace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PlayBaby" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PlayBaby/OkHttp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.OkHttp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zhend\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8764f578-31bb-47af-9fc3-824a19d6df19" name="Default Changelist" comment="" />
+      <created>1594117194370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594117194370</updated>
+      <workItem from="1594117195920" duration="40000" />
+      <workItem from="1596821506736" duration="3314000" />
+      <workItem from="1601308270869" duration="1286000" />
+      <workItem from="1601619118040" duration="9297000" />
+      <workItem from="1601633083914" duration="3538000" />
+      <workItem from="1601723161616" duration="350000" />
+      <workItem from="1601723900089" duration="4370000" />
+      <workItem from="1601736620507" duration="8893000" />
+      <workItem from="1601793257945" duration="10587000" />
+      <workItem from="1602246830656" duration="123000" />
+      <workItem from="1602347643529" duration="4473000" />
+      <workItem from="1602354095005" duration="11266000" />
+      <workItem from="1602412732118" duration="1180000" />
+      <workItem from="1602513023416" duration="8277000" />
+      <workItem from="1602605173951" duration="3703000" />
+      <workItem from="1602713158694" duration="12080000" />
+      <workItem from="1602756295194" duration="7659000" />
+      <workItem from="1602845129877" duration="1943000" />
+      <workItem from="1602857290887" duration="3868000" />
+      <workItem from="1603018201711" duration="60000" />
+      <workItem from="1603111946116" duration="12000" />
+      <workItem from="1603382563410" duration="6629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="610" y="278" width="505" height="441" key="#Notifications" timestamp="1602713196891">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="610" y="278" width="505" height="441" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1602713196891" />
+    <state x="270" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603382748801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603382748801" />
+    <state x="403" y="199" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602347760497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="199" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602347760497" />
+    <state x="748" y="178" key="FileChooserDialogImpl" timestamp="1602853097940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="748" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602853097940" />
+    <state width="1242" height="211" key="GridCell.Tab.0.bottom" timestamp="1603444455997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603444455997" />
+    <state width="1242" height="211" key="GridCell.Tab.0.center" timestamp="1603444455997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603444455997" />
+    <state width="1242" height="211" key="GridCell.Tab.0.left" timestamp="1603444455997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603444455997" />
+    <state width="1242" height="211" key="GridCell.Tab.0.right" timestamp="1603444455997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603444455997" />
+    <state width="1242" height="249" key="GridCell.Tab.1.bottom" timestamp="1602721124126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="249" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602721124126" />
+    <state width="1242" height="249" key="GridCell.Tab.1.center" timestamp="1602721124125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="249" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602721124125" />
+    <state width="1242" height="249" key="GridCell.Tab.1.left" timestamp="1602721124125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="249" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602721124125" />
+    <state width="1242" height="249" key="GridCell.Tab.1.right" timestamp="1602721124126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="249" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602721124126" />
+    <state x="270" y="80" key="SettingsEditor" timestamp="1602722743827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="80" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602722743827" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602727118255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1602727118255" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/frida_workplace$JavaHook2.coverage" NAME="JavaHook2 Coverage Results" MODIFIED="1602355347493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Conversation__1_.coverage" NAME="Conversation (1) Coverage Results" MODIFIED="1601805525844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$send_msg.coverage" NAME="send_msg Coverage Results" MODIFIED="1602760218631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$circleAd.coverage" NAME="circleAd Coverage Results" MODIFIED="1602605959150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$follow.coverage" NAME="follow Coverage Results" MODIFIED="1601803102119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp3.coverage" NAME="OkHttp3 Coverage Results" MODIFIED="1602720219775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Conversation.coverage" NAME="Conversation Coverage Results" MODIFIED="1601811013146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$anchorId.coverage" NAME="anchorId Coverage Results" MODIFIED="1602362624406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp__1_.coverage" NAME="OkHttp (1) Coverage Results" MODIFIED="1603382740929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PlayBaby" />
+    <SUITE FILE_PATH="coverage/frida_workplace$TIMConversation.coverage" NAME="TIMConversation Coverage Results" MODIFIED="1601804708965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$follow3.coverage" NAME="follow3 Coverage Results" MODIFIED="1601803225553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Conversation2.coverage" NAME="Conversation2 Coverage Results" MODIFIED="1601811124480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$VmListFragment.coverage" NAME="VmListFragment Coverage Results" MODIFIED="1602521518894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$CommonRequestResult.coverage" NAME="CommonRequestResult Coverage Results" MODIFIED="1602606242398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$main.coverage" NAME="main Coverage Results" MODIFIED="1602246918137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/脱壳脚本" />
+    <SUITE FILE_PATH="coverage/frida_workplace$chatRoomId.coverage" NAME="chatRoomId Coverage Results" MODIFIED="1602362620495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Url.coverage" NAME="Url Coverage Results" MODIFIED="1602758694517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$ApiLive.coverage" NAME="ApiLive Coverage Results" MODIFIED="1602606876004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp2.coverage" NAME="OkHttp2 Coverage Results" MODIFIED="1602860463041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$follow_native.coverage" NAME="follow_native Coverage Results" MODIFIED="1601753189066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$send2.coverage" NAME="send2 Coverage Results" MODIFIED="1602364239501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$VMOS3.coverage" NAME="VMOS3 Coverage Results" MODIFIED="1602520653512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Msg.coverage" NAME="Msg Coverage Results" MODIFIED="1601805529977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$JavaHook.coverage" NAME="JavaHook Coverage Results" MODIFIED="1602351134329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$VMOS_num.coverage" NAME="VMOS_num Coverage Results" MODIFIED="1602517762800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$VM_num.coverage" NAME="VM_num Coverage Results" MODIFIED="1602521679202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$send_msg_active.coverage" NAME="send_msg_active Coverage Results" MODIFIED="1602605852649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$content.coverage" NAME="content Coverage Results" MODIFIED="1602606019033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$ApiClient.coverage" NAME="ApiClient Coverage Results" MODIFIED="1602607346011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$VMOS_AllFunc.coverage" NAME="VMOS_AllFunc Coverage Results" MODIFIED="1602514891327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$RomDetailsActivity.coverage" NAME="RomDetailsActivity Coverage Results" MODIFIED="1602521145732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$doFinal_crypto_java.coverage" NAME="doFinal_crypto_java Coverage Results" MODIFIED="1602364942386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$roomNo.coverage" NAME="roomNo Coverage Results" MODIFIED="1602605965400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp.coverage" NAME="OkHttp Coverage Results" MODIFIED="1603412561355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PlayBaby" />
+  </component>
+</project>

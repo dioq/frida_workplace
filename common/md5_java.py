@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import frida, sys
 
 #HOOK java.security.MessageDigest 中的加密方法 digest, 这个方法是MD5加密的返回值

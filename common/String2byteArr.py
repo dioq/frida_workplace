@@ -3,7 +3,7 @@
 import frida
 import sys
 
-#HOOK修改对象属性
+#HOOK 二进制数与字符串的转换
 jscode = """
 Java.perform(function () {
     var login = Java.use('com.qianyu.helloworld.LoginActivity$1');
