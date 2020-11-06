@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-
 import frida
 import sys
 
-#HOOK 二进制数与字符串的转换
+# HOOK 二进制数与字符串的转换
 jscode = """
 Java.perform(function () {
     var login = Java.use('com.qianyu.helloworld.LoginActivity$1');
@@ -64,15 +63,16 @@ Java.perform(function () {
 });
 """
 
+
 def message(message, data):
     if message["type"] == 'send':
         print("[*] {0}".format(message['payload']))
     else:
         print(message)
 
+
 process = frida.get_remote_device().attach('com.qianyu.helloworld')
 script = process.create_script(jscode)
 script.on("message", message)
 script.load()
 sys.stdin.read()
-
