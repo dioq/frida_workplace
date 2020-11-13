@@ -22,6 +22,23 @@ if(Java.available){
             console.log("p8 : " + p8);
             this.getHistoryAsync(p1,p2,p3,p4,p5,p6,p7,p8);
         }
+        util.getHistoryAfterAsync.overload.implementation = function(p1,p2,p3,p4,p5,p6,p7,p8){
+            console.log("Hook Start 333 ... ");
+            console.log("p1 : " + p1);
+            console.log("p2 : " + p2);
+            console.log("p3 : " + p3);
+            console.log("p4 : " + p4);
+            console.log("p5 : " + p5);
+            console.log("p6 : " + p6);
+            console.log("p7 : " + p7);
+            console.log("p8 : " + p8);
+            this.getHistoryAfterAsync(p1,p2,p3,p4,p5,p6,p7,p8);
+        }
+        util.$init.implementation=function(param1){
+            console.log("Hook Start 444 ...");
+            console.log(param1);
+            this.$init(param1);
+        }
     });
 }
 """

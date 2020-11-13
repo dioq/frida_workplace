@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
 import frida, sys
 
+#HOOK Url初始化方法
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.vmos.utillibrary.ˏ");//获取到类
-        var ArrayList = Java.use("java.util.ArrayList");//获取到类
-        util.ˋ.overload.implementation = function(p1){
-            console.log("Hook Start...");
-            console.log("p1 : " + p1);
-            //var instance = ArrayList.$new();//根据类实例化一个对象
-            //return instance;
-            return 0;
+        var Classz = Java.use("java.net.URL");
+        Classz.$init.overload("java.lang.String").implementation=function(param1){
+            console.log(param1);
+            this.$init(param1);
         }
     });
 }
@@ -24,7 +21,7 @@ def on_message(message, data):
         print(message)
 
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.vmos.pro')
+session = frida.get_usb_device().attach('com.honghe.guardtest')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

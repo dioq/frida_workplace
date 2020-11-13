@@ -7,12 +7,12 @@ if(Java.available){
     Java.perform(function () {
         var OkHttpClient = Java.use("okhttp3.OkHttpClient");
         var Gson = Java.use("com.google.gson.Gson");
-        OkHttpClient.newCall.implementation = function (request) {
+        OkHttpClient.newCall.overload("okhttp3.Request").implementation = function (request) {
             var gson = Gson.$new();
             var result_json = gson.toJson(request);
-            console.log("result_json :" + result_json);
+            console.log("result_json : " + result_json);
             var result = this.newCall(request);
-            //console.log(request.toString());
+            //console.log("result : "+request.toString());
             return result;
         };
     });

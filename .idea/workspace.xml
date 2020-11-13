@@ -20,34 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8764f578-31bb-47af-9fc3-824a19d6df19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/58/ChatBaseMessage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/IMMsgWrappersManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/IMRichText.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/IMTipMsg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/IMessageManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/MessageConvert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/MessageImp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/MessageManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/OkHttp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/TipWrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/Url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/getUrl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/onFinishInflate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/setViewData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/suid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/suid2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/suid3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/suid4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/updateSUID.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58/writeTo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AndroidProcesses/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caomei/CombineMessageUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caomei/ImUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caomei/OkHttp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caomei/caomei.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/EncryptUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58/ChallengeCenterActionBean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58/ChatVM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58/UniversalToolsImp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58/UniversalToolsImp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/HashMapHandle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/OkHttp_Interceptor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huolala/ParamsUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huolala/Sign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huolala/Url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/String2byteArr.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/String2byteArr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/58/MessageImp.py" beforeDir="false" afterPath="$PROJECT_DIR$/58/MessageImp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/OkHttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/OkHttp_newCall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/OkHttp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/OkHttp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vmos/VMOS3.py" beforeDir="false" afterPath="$PROJECT_DIR$/vmos/VMOS3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vmos/VMOS_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/vmos/VMOS_num.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vmos/VmListFragment.py" beforeDir="false" afterPath="$PROJECT_DIR$/vmos/VmListFragment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Frida_Arrow_HookDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,19 +78,20 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\frida\frida_workplace\test" />
+      <recent name="F:\frida\frida_workplace\huolala" />
+      <recent name="F:\frida\frida_workplace\58" />
+      <recent name="F:\frida\frida_workplace\caomei" />
+      <recent name="F:\frida\frida_workplace\PlayBaby" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\frida\frida_workplace" />
       <recent name="F:\frida\frida_workplace\qiezi" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\frida\frida_workplace\58" />
-      <recent name="F:\frida\frida_workplace\caomei" />
-      <recent name="F:\frida\frida_workplace\PlayBaby" />
-      <recent name="F:\frida\frida_workplace\qiezi" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.IMTipMsg">
-    <configuration name="EncryptUtils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.OkHttp2">
+    <configuration name="OkHttp2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="frida_workplace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,12 +99,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/md" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/md/EncryptUtils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/OkHttp2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IMMsgWrappersManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OkHttp_Interceptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="frida_workplace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,12 +121,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/58" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58/IMMsgWrappersManager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/OkHttp_Interceptor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IMRichText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OkHttp_newCall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="frida_workplace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,56 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/58" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58/IMRichText.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="IMTipMsg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="frida_workplace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/58" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58/IMTipMsg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MessageConvert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="frida_workplace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/58" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58/MessageConvert.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/OkHttp_newCall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.IMTipMsg" />
-        <item itemvalue="Python.EncryptUtils" />
-        <item itemvalue="Python.MessageConvert" />
-        <item itemvalue="Python.IMMsgWrappersManager" />
-        <item itemvalue="Python.IMRichText" />
+        <item itemvalue="Python.OkHttp2" />
+        <item itemvalue="Python.OkHttp_Interceptor" />
+        <item itemvalue="Python.OkHttp_newCall" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +210,13 @@
       <workItem from="1604656787781" duration="5100000" />
       <workItem from="1604675714059" duration="75000" />
       <workItem from="1604682069653" duration="543000" />
+      <workItem from="1604838253715" duration="14153000" />
+      <workItem from="1604910805738" duration="11066000" />
+      <workItem from="1605017097151" duration="7323000" />
+      <workItem from="1605089345140" duration="676000" />
+      <workItem from="1605108014931" duration="9606000" />
+      <workItem from="1605131578691" duration="19000" />
+      <workItem from="1605185742805" duration="13624000" />
     </task>
     <servers />
   </component>
@@ -289,34 +240,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="610" y="278" width="505" height="441" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1602713196891" />
-    <state x="270" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603919516227">
+    <state x="270" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605200723543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603919516227" />
+    <state x="270" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605200723543" />
     <state x="403" y="199" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602347760497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="403" y="199" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602347760497" />
-    <state x="748" y="178" key="FileChooserDialogImpl" timestamp="1604569549085">
+    <state x="748" y="178" key="FileChooserDialogImpl" timestamp="1605120542751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="748" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604569549085" />
-    <state width="1317" height="198" key="GridCell.Tab.0.bottom" timestamp="1604667623099">
+    <state x="748" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605120542751" />
+    <state width="1298" height="291" key="GridCell.Tab.0.bottom" timestamp="1605202849397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1317" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604667623099" />
-    <state width="1317" height="198" key="GridCell.Tab.0.center" timestamp="1604667623098">
+    <state width="1298" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605202849397" />
+    <state width="1298" height="291" key="GridCell.Tab.0.center" timestamp="1605202849397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1317" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604667623098" />
-    <state width="1317" height="198" key="GridCell.Tab.0.left" timestamp="1604667623098">
+    <state width="1298" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605202849397" />
+    <state width="1298" height="291" key="GridCell.Tab.0.left" timestamp="1605202849397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1317" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604667623098" />
-    <state width="1317" height="198" key="GridCell.Tab.0.right" timestamp="1604667623099">
+    <state width="1298" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605202849397" />
+    <state width="1298" height="291" key="GridCell.Tab.0.right" timestamp="1605202849397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1317" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604667623099" />
+    <state width="1298" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605202849397" />
     <state width="1317" height="249" key="GridCell.Tab.1.bottom" timestamp="1604664509097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -345,6 +296,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1602727118255" />
+    <state x="403" y="146" width="600" height="536" key="find.popup" timestamp="1605189807116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="146" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1605189807116" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/frida_workplace$ImUtils.coverage" NAME="ImUtils Coverage Results" MODIFIED="1603933314976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caomei" />
@@ -356,53 +311,63 @@
     <SUITE FILE_PATH="coverage/frida_workplace$MessageConvert.coverage" NAME="MessageConvert Coverage Results" MODIFIED="1604584610392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$OkHttp__1_.coverage" NAME="OkHttp (1) Coverage Results" MODIFIED="1603919446895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caomei" />
     <SUITE FILE_PATH="coverage/frida_workplace$TIMConversation.coverage" NAME="TIMConversation Coverage Results" MODIFIED="1601804708965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$ChatVM.coverage" NAME="ChatVM Coverage Results" MODIFIED="1604838429390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$follow3.coverage" NAME="follow3 Coverage Results" MODIFIED="1601803225553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Sign.coverage" NAME="Sign Coverage Results" MODIFIED="1605110741580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huolala" />
     <SUITE FILE_PATH="coverage/frida_workplace$Conversation2.coverage" NAME="Conversation2 Coverage Results" MODIFIED="1601811124480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
-    <SUITE FILE_PATH="coverage/frida_workplace$MessageImp.coverage" NAME="MessageImp Coverage Results" MODIFIED="1604573239396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Url__1_.coverage" NAME="Url (1) Coverage Results" MODIFIED="1605118783919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/frida_workplace$MessageImp.coverage" NAME="MessageImp Coverage Results" MODIFIED="1605192523006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$suid3.coverage" NAME="suid3 Coverage Results" MODIFIED="1604495734962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp_Interceptor__1_.coverage" NAME="OkHttp_Interceptor (1) Coverage Results" MODIFIED="1605200705676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/frida_workplace$main.coverage" NAME="main Coverage Results" MODIFIED="1602246918137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/脱壳脚本" />
     <SUITE FILE_PATH="coverage/frida_workplace$suid2.coverage" NAME="suid2 Coverage Results" MODIFIED="1604493510635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
-    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp2.coverage" NAME="OkHttp2 Coverage Results" MODIFIED="1602860463041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp2.coverage" NAME="OkHttp2 Coverage Results" MODIFIED="1605201792324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/frida_workplace$follow_native.coverage" NAME="follow_native Coverage Results" MODIFIED="1601753189066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
     <SUITE FILE_PATH="coverage/frida_workplace$send2.coverage" NAME="send2 Coverage Results" MODIFIED="1602364239501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
     <SUITE FILE_PATH="coverage/frida_workplace$VMOS3.coverage" NAME="VMOS3 Coverage Results" MODIFIED="1602520653512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
     <SUITE FILE_PATH="coverage/frida_workplace$TipWrapper.coverage" NAME="TipWrapper Coverage Results" MODIFIED="1604582988300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$JavaHook.coverage" NAME="JavaHook Coverage Results" MODIFIED="1602351134329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
     <SUITE FILE_PATH="coverage/frida_workplace$VMOS_num.coverage" NAME="VMOS_num Coverage Results" MODIFIED="1602517762800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
+    <SUITE FILE_PATH="coverage/frida_workplace$ChallengeCenterActionBean.coverage" NAME="ChallengeCenterActionBean Coverage Results" MODIFIED="1605025644253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp_newCall.coverage" NAME="OkHttp_newCall Coverage Results" MODIFIED="1605200757500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/frida_workplace$content.coverage" NAME="content Coverage Results" MODIFIED="1602606019033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
     <SUITE FILE_PATH="coverage/frida_workplace$ApiClient.coverage" NAME="ApiClient Coverage Results" MODIFIED="1602607346011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
-    <SUITE FILE_PATH="coverage/frida_workplace$IMTipMsg.coverage" NAME="IMTipMsg Coverage Results" MODIFIED="1604675895344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$IMTipMsg.coverage" NAME="IMTipMsg Coverage Results" MODIFIED="1604839567586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$CombineMessageUtils.coverage" NAME="CombineMessageUtils Coverage Results" MODIFIED="1604342694905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caomei" />
     <SUITE FILE_PATH="coverage/frida_workplace$IMessageManager.coverage" NAME="IMessageManager Coverage Results" MODIFIED="1604574486628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$doFinal_crypto_java.coverage" NAME="doFinal_crypto_java Coverage Results" MODIFIED="1602364942386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$UniversalToolsImp2.coverage" NAME="UniversalToolsImp2 Coverage Results" MODIFIED="1604844219276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$UniversalToolsImp.coverage" NAME="UniversalToolsImp Coverage Results" MODIFIED="1605025646091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$writeTo.coverage" NAME="writeTo Coverage Results" MODIFIED="1604563092547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$EncryptUtils.coverage" NAME="EncryptUtils Coverage Results" MODIFIED="1604667623090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/md" />
     <SUITE FILE_PATH="coverage/frida_workplace$follow.coverage" NAME="follow Coverage Results" MODIFIED="1601803102119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
-    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp3.coverage" NAME="OkHttp3 Coverage Results" MODIFIED="1602720219775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp3.coverage" NAME="OkHttp3 Coverage Results" MODIFIED="1605199572357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/frida_workplace$IMMsgWrappersManager.coverage" NAME="IMMsgWrappersManager Coverage Results" MODIFIED="1604584050036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$Conversation.coverage" NAME="Conversation Coverage Results" MODIFIED="1601811013146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
     <SUITE FILE_PATH="coverage/frida_workplace$anchorId.coverage" NAME="anchorId Coverage Results" MODIFIED="1602362624406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp_Interceptor.coverage" NAME="OkHttp_Interceptor Coverage Results" MODIFIED="1605200815863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/frida_workplace$suid.coverage" NAME="suid Coverage Results" MODIFIED="1604493264219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$VmListFragment.coverage" NAME="VmListFragment Coverage Results" MODIFIED="1602521518894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
     <SUITE FILE_PATH="coverage/frida_workplace$CommonRequestResult.coverage" NAME="CommonRequestResult Coverage Results" MODIFIED="1602606242398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
     <SUITE FILE_PATH="coverage/frida_workplace$chatRoomId.coverage" NAME="chatRoomId Coverage Results" MODIFIED="1602362620495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
-    <SUITE FILE_PATH="coverage/frida_workplace$Url.coverage" NAME="Url Coverage Results" MODIFIED="1604500306422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$Url.coverage" NAME="Url Coverage Results" MODIFIED="1605185827993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$ApiLive.coverage" NAME="ApiLive Coverage Results" MODIFIED="1602606876004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
     <SUITE FILE_PATH="coverage/frida_workplace$Msg.coverage" NAME="Msg Coverage Results" MODIFIED="1601805529977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cat_live" />
     <SUITE FILE_PATH="coverage/frida_workplace$VM_num.coverage" NAME="VM_num Coverage Results" MODIFIED="1602521679202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
     <SUITE FILE_PATH="coverage/frida_workplace$send_msg_active.coverage" NAME="send_msg_active Coverage Results" MODIFIED="1602605852649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
     <SUITE FILE_PATH="coverage/frida_workplace$Test.coverage" NAME="Test Coverage Results" MODIFIED="1604347275229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AndroidProcesses" />
-    <SUITE FILE_PATH="coverage/frida_workplace$updateSUID.coverage" NAME="updateSUID Coverage Results" MODIFIED="1604500447719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$updateSUID.coverage" NAME="updateSUID Coverage Results" MODIFIED="1605192524811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$VMOS_AllFunc.coverage" NAME="VMOS_AllFunc Coverage Results" MODIFIED="1602514891327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
     <SUITE FILE_PATH="coverage/frida_workplace$caomei.coverage" NAME="caomei Coverage Results" MODIFIED="1603922008386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caomei" />
-    <SUITE FILE_PATH="coverage/frida_workplace$IMRichText.coverage" NAME="IMRichText Coverage Results" MODIFIED="1604582990004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$IMRichText.coverage" NAME="IMRichText Coverage Results" MODIFIED="1605192521553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$RomDetailsActivity.coverage" NAME="RomDetailsActivity Coverage Results" MODIFIED="1602521145732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vmos" />
     <SUITE FILE_PATH="coverage/frida_workplace$onFinishInflate.coverage" NAME="onFinishInflate Coverage Results" MODIFIED="1604567315972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$getUrl.coverage" NAME="getUrl Coverage Results" MODIFIED="1604560701646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$setViewData.coverage" NAME="setViewData Coverage Results" MODIFIED="1604569390637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$suid4.coverage" NAME="suid4 Coverage Results" MODIFIED="1604560784005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
     <SUITE FILE_PATH="coverage/frida_workplace$roomNo.coverage" NAME="roomNo Coverage Results" MODIFIED="1602605965400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qiezi" />
-    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp.coverage" NAME="OkHttp Coverage Results" MODIFIED="1604498144336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
-    <SUITE FILE_PATH="coverage/frida_workplace$MessageManager.coverage" NAME="MessageManager Coverage Results" MODIFIED="1604574019131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$ParamsUtil.coverage" NAME="ParamsUtil Coverage Results" MODIFIED="1605110745044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huolala" />
+    <SUITE FILE_PATH="coverage/frida_workplace$MessageManager.coverage" NAME="MessageManager Coverage Results" MODIFIED="1604839720947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/58" />
+    <SUITE FILE_PATH="coverage/frida_workplace$OkHttp.coverage" NAME="OkHttp Coverage Results" MODIFIED="1605199035679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
 </project>
