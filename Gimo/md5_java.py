@@ -11,6 +11,8 @@ if(Java.available){
         util.update.overload("[B").implementation = function(param) {
             this.update(param);
             console.log('=========== 加密参数 update start ============');
+            //打印堆栈
+            console.log(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Exception").$new()));
             var paramStr = Bytes2HexString(param);
             console.log('paramStr : \\n' + paramStr);
             console.log('=========== 加密参数 update end   ============');
@@ -62,7 +64,7 @@ def on_message(message, data):
 
 
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.wuba')
+session = frida.get_usb_device().attach('com.fenzotech.jimu')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

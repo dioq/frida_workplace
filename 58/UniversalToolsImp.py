@@ -79,6 +79,13 @@ if(Java.available){
             console.log("p4 : " + p4);
             this.mergeUserAsyncN(p1,p2,p3,p4);
         }
+        util.a.overload("java.lang.String","org.json.JSONObject","com.wuba.wchat.api.Define$RequestSessionCb").implementation = function(p1,p2,p3){
+            console.log("a ...");
+            console.log("p1 : " + p1);
+            console.log("p2 : " + p2);
+            console.log("p3 : " + p3);
+            this.a(p1,p2,p3);
+        }
     });
 }
 """

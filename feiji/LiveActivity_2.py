@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
 import frida, sys
 
+#HOOK Url初始化方法
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.wuba.commons.utils.PublicPreferencesProvider$PublicPreferencesProviderProxy");//获取到类
-        util.getString.implementation = function(p1,p2,p3){
-            // console.log("Hook Start...");
-            var suid = this.getString(p1,p2,p3);
-            console.log("suid : " + suid);
-            return suid;
-        }
+        Java.choose("com.tianmao.phone.activity.LiveActivity",{
+            onMatch:function(instance){
+                console.log("hook start ...");
+                instance.sendChatMessage("成年没?");
+            },onComplete:function(){}
+        })
     });
 }
 """
-
 
 def on_message(message, data):
     if message['type'] == 'send':
@@ -22,9 +21,8 @@ def on_message(message, data):
     else:
         print(message)
 
-
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.wuba')
+session = frida.get_usb_device().attach('com.tmfeiji11.phonelive1237')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

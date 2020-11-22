@@ -4,11 +4,10 @@ import frida, sys
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.wuba.commons.utils.PublicPreferencesProvider$PublicPreferencesProviderProxy");//获取到类
-        util.getString.implementation = function(p1,p2,p3){
-            // console.log("Hook Start...");
-            var suid = this.getString(p1,p2,p3);
-            console.log("suid : " + suid);
+        var util = Java.use("a.a.a.d.b.a");//获取到类
+        util.a.overload("java.lang.String").implementation = function(p1){
+            var result = this.a(p1);
+            console.log("p1 : \\n" + p1, "\\nresult  : \\n" + result );
             return suid;
         }
     });

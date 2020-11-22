@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 import frida, sys
 
-# HOOK java.security.MessageDigest 中的加密方法 digest, 这个方法是MD5加密的返回值
+#HOOK java.security.MessageDigest 中的加密方法 digest, 这个方法是MD5加密的返回值
 jscode = """
 if(Java.available){
     Java.perform(function(){
         var util = Java.use("java.security.MessageDigest");//获取到类
         var Arrays = Java.use("java.util.Arrays");//获取java.util.Arrays类
-
+        
         util.update.overload("[B").implementation = function(param) {
             this.update(param);
             console.log('=========== 加密参数 update start ============');
@@ -15,8 +15,8 @@ if(Java.available){
             console.log('paramStr : \\n' + paramStr);
             console.log('=========== 加密参数 update end   ============');
         }
-
-
+        
+        
         util.digest.overload().implementation = function() {
             var result = this.digest();
             console.log('=========== 加密结果 digest start ============');
@@ -26,8 +26,8 @@ if(Java.available){
             console.log('=========== 加密结果 digest end   ============');
             return result;
         }
-
-
+        
+        
         //字节数组转十六进制字符串，对负值填坑
         function Bytes2HexString(arrBytes) {
             var str = "";
@@ -53,13 +53,11 @@ if(Java.available){
 }
 """
 
-
 def on_message(message, data):
     if message['type'] == 'send':
         print(" {0}".format(message['payload']))
     else:
         print(message)
-
 
 # 查找USB设备并附加到目标进程
 session = frida.get_usb_device().attach('com.wuba')

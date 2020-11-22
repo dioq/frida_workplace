@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 import frida, sys
 
+# HOOK 主动调用普通方法
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.wuba.commons.utils.PublicPreferencesProvider$PublicPreferencesProviderProxy");//获取到类
-        util.getString.implementation = function(p1,p2,p3){
-            // console.log("Hook Start...");
-            var suid = this.getString(p1,p2,p3);
-            console.log("suid : " + suid);
-            return suid;
+        var Classz = Java.use("io.socket.client.Manager");
+        Classz.$init.overload("java.net.URI","io.socket.client.Manager$Options").implementation=function(p1,p2){
+            console.log("p1 : "+p1);
+            console.log("p2 : "+p2);
+            this.$init(p1,p2);
         }
     });
 }
@@ -24,7 +24,7 @@ def on_message(message, data):
 
 
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.wuba')
+session = frida.get_usb_device().attach('com.tmfeiji11.phonelive1237')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

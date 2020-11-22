@@ -4,12 +4,12 @@ import frida, sys
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.wuba.commons.utils.PublicPreferencesProvider$PublicPreferencesProviderProxy");//获取到类
-        util.getString.implementation = function(p1,p2,p3){
-            // console.log("Hook Start...");
-            var suid = this.getString(p1,p2,p3);
-            console.log("suid : " + suid);
-            return suid;
+        var util = Java.use("com.common.gmacs.parse.clientconfig.ClientConfig");//获取到类
+        util.parse.overload("java.lang.String").implementation = function(p1){
+            var ret = this.parse(p1);
+            console.log("p1 : " + p1);
+            console.log("ret : " + ret);
+            return ret;
         }
     });
 }

@@ -4,12 +4,16 @@ import frida, sys
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.wuba.commons.utils.PublicPreferencesProvider$PublicPreferencesProviderProxy");//获取到类
-        util.getString.implementation = function(p1,p2,p3){
-            // console.log("Hook Start...");
-            var suid = this.getString(p1,p2,p3);
-            console.log("suid : " + suid);
-            return suid;
+        var util = Java.use("com.wuba.utils.MD5");//获取到类
+        util.getMD5ofStr.overload("java.lang.String").implementation = function(p1){
+            var ret = this.getMD5ofStr(p1);
+            console.log("p1 : " + p1);
+            console.log("ret : " + ret);
+            return ret;
+        }
+    util.md5Init.overload().implementation = function(){
+            this.md5Init();
+            console.log("--------------- ");
         }
     });
 }

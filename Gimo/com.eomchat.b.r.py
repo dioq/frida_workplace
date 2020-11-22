@@ -4,12 +4,11 @@ import frida, sys
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("com.wuba.commons.utils.PublicPreferencesProvider$PublicPreferencesProviderProxy");//获取到类
-        util.getString.implementation = function(p1,p2,p3){
-            // console.log("Hook Start...");
-            var suid = this.getString(p1,p2,p3);
-            console.log("suid : " + suid);
-            return suid;
+        var util = Java.use("com.eomchat.b.r");//获取到类
+        util.b.overload().implementation = function(){
+            var ret = this.b();
+            console.log("ret : " + ret);
+            return ret;
         }
     });
 }
@@ -24,7 +23,7 @@ def on_message(message, data):
 
 
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.wuba')
+session = frida.get_usb_device().attach('com.fenzotech.jimu')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

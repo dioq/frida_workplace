@@ -1,52 +1,49 @@
 # -*- coding: utf-8 -*-
 import frida, sys
 
-#HOOK javax.crypto.Cipher 中的通用加密方法 doFinal
+# HOOK javax.crypto.Cipher 中的通用加密方法 doFinal
 jscode = """
 if(Java.available){
     Java.perform(function(){
         var util = Java.use("javax.crypto.Cipher");//获取到类
-        var Arrays = Java.use("java.util.Arrays");//获取java.util.Arrays类
         util.doFinal.overload("[B").implementation = function(param) {
+            //console.log('=========== doFinal start ============');
+            //console.log('param : ' + param);
+            var param_hex_str = Bytes2HexString(param);
+
             var result = this.doFinal(param);
-            console.log('=========== doFinal start ============');
-            console.log('param : ' + param);
-            var paramStr = byteToString(param);
-            console.log('paramStr : ' + paramStr);
-            
-            console.log('result : ' + result);
-            //打印byte[] 数组的二进制
-            var bytesStr = Arrays.toString(result);
-            console.log('bytesStr : ' + bytesStr);
-            console.log('=========== doFinal end   ============');
+            //console.log('result : ' + result);
+            //打印byte[] 数组 转16进制 字符串
+            var result_hex_str = Bytes2HexString(result);
+            console.log('param_hex_str : \\n' + param_hex_str,'\\nresult_hex_str : \\n' + result_hex_str);
+            //console.log('=========== doFinal end   ============');
             return result;
         }
-        
-        function byteToString(arr){  
-            if(typeof arr === 'string'){  
-                return arr;  
-            }  
-            var str='',  
-            _arr = arr;  
-            for(var i=0; i<_arr.length; i++) {  
-                var one =_arr[i].toString(2), v=one.match(/^1+?(?=0)/);  
-                if(v && one.length == 8){  
-                    var bytesLength = v[0].length;  
-                    var store = _arr[i].toString(2).slice(7 - bytesLength);  
-                    for(var st=1; st < bytesLength; st++) {  
-                        store+=_arr[st + i].toString(2).slice(2);  
-                    }  
-                    str+=String.fromCharCode(parseInt(store, 2));  
-                    i+=bytesLength-1;  
-                } else {  
-                    str+=String.fromCharCode(_arr[i]);  
-                }  
-            }  
-            return str;  
+
+        //字节数组转十六进制字符串，对负值填坑
+        function Bytes2HexString(arrBytes) {
+            var str = "";
+            for (var i = 0; i < arrBytes.length; i++) {
+                var tmp;
+                var num = arrBytes[i];
+                if (num < 0) {
+                    //此处填坑，当byte因为符合位导致数值为负时候，需要对数据进行处理
+                    tmp = (255 + num + 1).toString(16);
+                } else {
+                    tmp = num.toString(16);
+                }
+                if (tmp.length == 1) {
+                    tmp = "0" + tmp;
+                }
+                str += tmp;
+            }
+            return str;
         }
+
     });
 }
 """
+
 
 def on_message(message, data):
     if message['type'] == 'send':
@@ -54,8 +51,9 @@ def on_message(message, data):
     else:
         print(message)
 
+
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.qzdsp.tiktok')
+session = frida.get_usb_device().attach('com.wuba')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

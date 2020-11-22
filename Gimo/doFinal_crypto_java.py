@@ -1,32 +1,24 @@
 # -*- coding: utf-8 -*-
 import frida, sys
 
-# HOOK java.security.MessageDigest 中的加密方法 digest, 这个方法是MD5加密的返回值
+# HOOK javax.crypto.Cipher 中的通用加密方法 doFinal
 jscode = """
 if(Java.available){
     Java.perform(function(){
-        var util = Java.use("java.security.MessageDigest");//获取到类
-        var Arrays = Java.use("java.util.Arrays");//获取java.util.Arrays类
+        var util = Java.use("javax.crypto.Cipher");//获取到类
+        util.doFinal.overload("[B").implementation = function(param) {
+            //console.log('=========== doFinal start ============');
+            //console.log('param : ' + param);
+            var param_hex_str = Bytes2HexString(param);
 
-        util.update.overload("[B").implementation = function(param) {
-            this.update(param);
-            console.log('=========== 加密参数 update start ============');
-            var paramStr = Bytes2HexString(param);
-            console.log('paramStr : \\n' + paramStr);
-            console.log('=========== 加密参数 update end   ============');
-        }
-
-
-        util.digest.overload().implementation = function() {
-            var result = this.digest();
-            console.log('=========== 加密结果 digest start ============');
-            //打印byte[] 数组的二进制
-            var bytesStr = Bytes2HexString(result);
-            console.log('result bytesStr : \\n' + bytesStr);
-            console.log('=========== 加密结果 digest end   ============');
+            var result = this.doFinal(param);
+            //console.log('result : ' + result);
+            //打印byte[] 数组 转16进制 字符串
+            var result_hex_str = Bytes2HexString(result);
+            console.log('param_hex_str : \\n' + param_hex_str,'\\nresult_hex_str : \\n' + result_hex_str);
+            //console.log('=========== doFinal end   ============');
             return result;
         }
-
 
         //字节数组转十六进制字符串，对负值填坑
         function Bytes2HexString(arrBytes) {
@@ -49,7 +41,6 @@ if(Java.available){
         }
 
     });
-
 }
 """
 
@@ -62,7 +53,7 @@ def on_message(message, data):
 
 
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.wuba')
+session = frida.get_usb_device().attach('com.fenzotech.jimu')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

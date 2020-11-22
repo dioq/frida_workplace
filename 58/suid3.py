@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import frida, sys
 
 #HOOK 主动调用普通方法
@@ -10,7 +9,7 @@ if(Java.available){
         Java.choose("com.qq.e.comm.managers.setting.SM",{
             onMatch:function(instance){
                 instance.updateSUID("aaaaa");
-                // console.log("result : " + result);
+                console.log("----------- go here ------------ ");
             },onComplete:function(){}
         })
     });
