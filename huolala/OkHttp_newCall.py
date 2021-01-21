@@ -28,7 +28,7 @@ def on_message(message, data):
 
 
 # 查找USB设备并附加到目标进程
-session = frida.get_usb_device().attach('com.fenzotech.jimu')
+session = frida.get_usb_device().attach('com.lalamove.huolala.client')
 
 # 在目标进程里创建脚本
 script = session.create_script(jscode)

@@ -110,6 +110,14 @@ if(Java.available){
             console.log("getMD5 --> ret : " + ret);
             return ret;
         }
+        util.getUUID.overload("java.lang.String").implementation = function(param1){
+            //打印堆栈
+            //console.log(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Exception").$new()));
+            var ret = this.getUUID(param1);
+            console.log("getUUID --> p1 : " + param1);
+            console.log("getUUID --> ret : " + ret);
+            return ret;
+        }
     });
 }
 """
